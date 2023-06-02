@@ -1,0 +1,727 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-logo img {
+    max-width: 60%;
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.header {
+    background-image: url(images/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header-line {
+    height: 10%;
+    padding: 1px 5%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    color:#d81d1d;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+
+    margin-right: 44px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: orange;
+}
+
+.button {
+    background-color: #e39929;
+    border-radius: 3.5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #894b17;
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    color: #e8b910;
+    font-family: 'Open Sans', serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    background-color: #7f7f7f;
+    border-radius: 20px;
+    padding: 10px;
+    opacity: 95%;
+    margin-top: 260px;
+    margin-bottom: 12px;
+}
+
+.header-suptitle {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-suptitle:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 127px;
+    left: 56px;
+}
+
+.header-suptitle:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 127px;
+    left: 308px;
+}
+
+.header-button {
+    background-color: #ff9a03;
+    border-radius: 1.5px;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+
+    transition: background-color 0.3s linear;
+}
+
+.header-button:hover {
+    background-color: #904506;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card {
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 10px 10px;
+    transition: background-color 0.39s linear;
+    transition: box-shadow 0.74s linear;
+}
+
+.card:hover {
+    background-color: #e5e1da;
+    box-shadow: 10px 10px 30px 15px #f2414163;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.card-img {
+    max-width: 27%;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+.card-title span {
+    color: #D67E35;
+    margin-left: 2px;
+}
+
+.card-desc {
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #656363;
+    padding-bottom: 30px;
+}
+
+
+.history {
+    margin-top: 200px;
+    padding-bottom: 200px;
+}
+
+.history-title {
+    font-family: 'Tinos', serif;
+    font-size: 52px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 10px;
+}
+
+.history-title span {
+    color: #e0a52f;
+}
+
+.history-desc {
+    color: #656363;
+    font-size: 18px;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.number-item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.number-item span {
+    display: block;
+    color: #000;
+}
+
+.history-images {
+    position: relative;
+    max-width: 20%;
+}
+
+.history-holder {
+    display: flex;
+}
+
+.imgages-1 {
+    position: absolute;
+    z-index: 0;
+    width: 430px;
+    left: 211px;
+}
+
+.black-block {
+    background-image: url(images/block-bg.jpg);
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left-title {
+    color: #deae02;
+    font-family: 'Open Sans', serif;
+    font-size: 38px;
+    background-color: #292928;
+    padding: 3px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.left-text {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.premap86 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.text-86 {
+    text-align: center;
+    font-family: 'Open-Sans', serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #F2831B;
+    margin: 40px 0px;
+}
+
+.vet86 {
+    margin: 40px 42px;
+}
+
+.map86 {
+    margin-top: 2px;
+    width: 98%;
+    max-height: 500px;
+    max-width: 1750px;
+}
+
+.jur86 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 15% 70px 15%;
+}
+
+.button86 {
+    background-color: #ba1420ec;
+    border-radius: 9.5px;
+    color: #fff;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    transition: background-color 0.7s linear;
+    transition: box-shadow 0.44s linear;
+}
+
+.button86:hover {
+    background-color: #8c0e0ed3;
+    box-shadow: 4px 5px 6px #ba145ab5;
+}
+
+.cards-vet86 {
+    display: flex;
+    max-width: 1700px;
+}
+
+.klimov{
+    width: 30%;
+    margin: 0px 50px 0px 18%;
+}
+
+.text-klimov{
+    width: 37%;
+}
+
+.cards-vet86 p{
+    text-align: center;
+}
+
+.order-vet86 {
+    display: flex;
+    max-width: 1700px;
+    margin: 10px 10% 1% 10%;
+}
+
+.order-vet86 p {
+    font-family: 'Open-Sans', serif;
+    font-weight: 600;
+    font-size: 22px;
+    color:#d44317;
+    margin-left: 21px;
+}
+
+.klimov-ord {
+    width: 35%;
+    max-height: 555px;
+    max-width: 450px;
+}
+
+.klimov-medal {
+    width: 35%;
+    max-height: 555px;
+    max-width: 450px;
+}
+
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-title {
+    background-color: #292928;
+    border-radius: 15px;
+    padding: 5px;
+    color: #d44317;
+    font-family: 'Open-Sans', serif;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    margin: 90px 0px 75px 0px;
+}
+
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+
+.burger-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.map303 {
+    width: 92%;
+    max-height: 560px;
+    max-width: 1250px;
+}
+
+.img-sub {
+    font-family: 'Open-Sans', serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 20px 0px 30px 0px;
+    text-align: center;
+    color: #f2831b;
+}
+
+.limit303 {
+    margin: 50px 28% 70px 28%;
+    max-width: 900px;
+}
+
+.burgers-image {
+    text-align: center;
+}
+
+.burgers-image img{
+    max-height: 400px;
+    max-width: 630px;
+    width: 60%;
+}
+
+div .container {
+    text-align: center;
+}
+
+.burger-text {
+    font-family: 'Tinos', serif;
+    font-size: 23px;
+}
+
+.footer {
+    background-color: #000;
+    padding: 2px 0px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.ft-txt {
+    color: #edac4a;
+    font-family: 'Open-Sans', serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.menu-img {
+    width: 90%;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.burger-slide {
+    position: absolute;
+    background-color: #d4d0cb;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.disp {
+    display: none;
+}
+
+.rofl {
+    color: white;
+    transition: display 0.3s linear;
+}
+
+.rofl:hover {
+    display: none;
+}
+
+
+@media (max-width: 1300px) {
+
+    .menu-items {
+        display: block;
+    }
+
+    .menu-item {
+        margin: 20px auto;
+        width: 600px;
+    }
+
+
+    .header-title {
+        position: static;
+    }
+
+    .header-suptitle:before,
+    .header-suptitle:after {
+        content: none;
+    }
+
+    .cook-content {
+        display: block;
+    }
+
+    .cook-content img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+
+
+    .block-holder {
+        display: block;
+    }
+
+    .vet86 {
+        margin: 0px;
+    }
+
+    .klimov{
+        width: 32%;
+        margin: 0px 50px 0px 12%;
+    }
+    
+    .text-klimov{
+        width: 36%;
+    }
+
+    .left-title,
+    .left-text,
+    .right-button {
+        text-align: center;
+    }
+
+    .right-button {
+        margin-top: 30px;
+    }
+
+    .history-images {
+        display: none;
+    }
+
+    .history-title,
+    .history-desc,
+    .history-number {
+        width: auto;
+    }
+}
+
+
+
+@media (max-width: 921px) {
+    .burger-menu {
+        display: block;
+        margin-right: 15%;
+    }
+
+    .nav,
+    .cart,
+    .phone,
+    .btn {
+        display: none;
+    }
+
+    .nav-item {
+        margin: 3px;
+        color: #fc9826;
+    }
+
+    .header-line {
+        justify-content: inherit;
+    }
+    
+    .burger-menu {
+        margin-left: auto;
+    }
+
+
+    .ft-txt {
+        font-size: 14px;
+    }
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+    .cards-holder {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .burger-text {
+        font-size: 18px;
+    }
+    
+    .jur86 {
+        display: block;
+        text-align: center;
+    }
+
+    .jur86 div{
+        margin-bottom: 55px;
+    }
+    
+    .button86 {
+        background-color: #ba1420ec;
+        border-radius: 9.5px;
+        color: #fff;
+        padding: 19px 38px;
+    }
+}
+
+
+@media (max-width: 780px) {
+
+    .history-holder {
+        display: block;
+    }
+    .menu-item {
+        width: auto;
+    }
+
+    .burgers-image img{
+        display: none;
+    }
+
+    .left-title, .dishes-title {
+        font-size: 28px;
+    }
+
+    .left-text {
+        font-size: 16px;
+    }
+
+    .high {
+        display: none;
+    }
+
+    .container {
+        margin: 11%;
+    }
+
+    .number-item {
+        font-size: 23px;
+    }
+
+    .header-title {
+        font-size: 38px;
+    }
+
+    .text-86 {
+        font-size: 20.6px;
+        margin: 30px 0px;
+    }
+
+    .cards-vet86 {
+        flex-direction: column;
+    }
+
+    .klimov{
+        width: 43.5%;
+        margin: 0px 27.3%;
+    }
+    
+    .text-klimov{
+        width: 72%;
+        margin: 20px 14% 0px;
+    }
+
+    .order-vet86 {
+        display: flex;
+        max-width: 1700px;
+        margin: 0px 10% 1% 10%;
+    }
+    
+    .order-vet86 p {
+        font-family: 'Open-Sans', serif;
+        font-weight: 600;
+        font-size: 16px;
+        color:#d44317;
+        margin-left: 16px;
+    }
+    
+    .klimov-ord {
+        width: 50%;
+    }
+    
+    .klimov-medal {
+        width: 50%;
+    }
+
+    .jur86 div{
+        margin-bottom: 50px;
+    }
+    
+    .button86 {
+        background-color: #ba1420ec;
+        border-radius: 9.5px;
+        color: #fff;
+        padding: 14px 28px;
+        font-size: 13.6px;
+    }
+
+    .limit303 {
+        margin: 50px 15% 70px 15%;
+    }
+}
